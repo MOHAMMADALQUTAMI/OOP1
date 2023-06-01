@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <Content Include="Controllers\Models\Developer.cs" />
+    <Content Include="Controllers\WeatherForecastController.cs" />
+    <Content Include="Models\Accountent.cs" />
+    <Content Include="Models\Developer.cs" />
+    <Content Include="Controllers\EmployeeController.cs" />
+    <Content Include="Models\Employee.cs" />
+    <Content Include="Models\Shape.cs" />
+    <Content Include="Models\Rectanguler.cs" />
+  </ItemGroup>
+</Project>
